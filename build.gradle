@@ -1,0 +1,81 @@
+buildscript {
+   repositories {
+       maven { url "http://maven.oschina.net/content/groups/public" }
+   }
+   dependencies {
+       classpath "org.springframework.boot:spring-boot-gradle-plugin:1.3.0.RELEASE"
+   }
+}
+
+apply plugin: "java"
+apply plugin: "idea"
+apply plugin: "spring-boot"
+apply plugin: "war"
+
+war {
+    archiveName = "collapsar.war"
+    version = "0.0.1-SNAPSHOT"
+}
+
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+
+task init << {
+    sourceSets*.java.srcDirs*.each { it.mkdirs() }
+    sourceSets*.resources.srcDirs*.each { it.mkdirs() }
+    println "project init successed."
+ }
+
+task buildinfo << {
+    def buildver = ""
+    def tag = ""
+    try {
+        def revision = 'git rev-list --count HEAD'.execute().text.trim()
+        def hash = 'git rev-parse --short HEAD'.execute().text.trim()
+        buildver = "r${revision}-${hash}"
+        tag = 'git describe --tags'.execute().text.trim()
+    } catch(any) {
+        println "warn! failed to get revision"
+    }
+
+    new File("src/main/resources/application-buildinfo.properties").withWriter { w->
+            w.write("build.module=" +rootProject.name+"\n")
+            w.write("build.revision=" + buildver + "\n")
+            w.write("build.tag=" + tag + "\n")
+            w.write("build.datetime =" + (new Date()).format("YYYY-MM-dd HH:mm:ss") + "\n")
+            w.write("build.hostname=" + InetAddress.localHost.hostName)
+    }
+}
+processResources.dependsOn buildinfo
+
+
+dependencies{
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        maven { url "https://repo.spring.io/libs-release" }
+    }
+
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.boot:spring-boot-starter-jdbc")
+    //compile("org.springframework.boot:spring-boot-starter-security")
+
+
+    //compile ("javax.servlet:jstl:1.2")
+    compile ("mysql:mysql-connector-java:5.1.37")
+    compile ("com.zaxxer:HikariCP:2.4.1")
+    compile("org.mybatis:mybatis-spring:1.2.3")
+    compile("org.mybatis:mybatis:3.3.0")
+
+
+    compile ("com.google.code.gson:gson:2.3.1")
+
+
+    runtime("org.apache.tomcat.embed:tomcat-embed-jasper")
+    //runtime("org.springframework.security:spring-security-taglibs")
+
+
+    testCompile("junit:junit")
+}
