@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
  */
 //@ConfigurationProperties(prefix="build", locations="classpath:buildinfo.properties")
 @Component
-public class BuildInfoConfigure {
+public class BuildInfoConfigurer {
     @Value("${build.module}")
     private String module;
     @Value("${build.revision}")
