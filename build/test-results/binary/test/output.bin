@@ -1,0 +1,5 @@
+R21:06:41.322 [Test worker] DEBUG c.d.c.controller.RbacControllerTest - begin -->
+×21:06:41.343 [Test worker] DEBUG c.d.c.s.c.VendorHttpClientService - connectParams connection: VendorConnectParams{accessKey='FSDFGFDGFDHFFDFDFDF', secretKey='gfdgfdgfdgfdfffdser', urlBase='http://localhost:8080'}
+‡21:06:42.367 [Test worker] DEBUG c.d.c.s.c.VendorHttpClientService - vendor post: apiUrl=/collapsar/queryUsersByPage,body=QueryUsersByPageReq{pageIndex=1, pageSize=3},clazz=class com.devpt.collapsar.model.common.GenericResponse,method=POST,expireTime=1464009402
+f21:06:42.369 [Test worker] INFO  c.d.c.controller.RbacControllerTest - testQueryUsersByPage: resp={}
+`21:06:42.371 [Test worker] DEBUG c.d.c.controller.RbacControllerTest - end <--use time=1041 ms

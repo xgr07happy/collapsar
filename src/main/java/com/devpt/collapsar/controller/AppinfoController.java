@@ -1,6 +1,6 @@
 package com.devpt.collapsar.controller;
 
-import com.devpt.collapsar.configure.BuildInfoConfigure;
+import com.devpt.collapsar.configure.BuildInfoConfigurer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,13 +15,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class AppinfoController {
     private static final Logger logger = LoggerFactory.getLogger(AppinfoController.class);
     @Autowired
-    private BuildInfoConfigure buildInfoConfigure;
+    private BuildInfoConfigurer buildInfoConfigure;
 
 
     @RequestMapping("/appver")
     @ResponseBody
     public Object appVersion() {
-        System.out.println("#####"+this.buildInfoConfigure.toString());
+        logger.info("appver: "+ this.buildInfoConfigure.toString());
         return this.buildInfoConfigure;
     }
 

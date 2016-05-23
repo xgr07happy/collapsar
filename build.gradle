@@ -58,24 +58,39 @@ dependencies{
         maven { url "https://repo.spring.io/libs-release" }
     }
 
+    // spring boot ref http://www.ibm.com/developerworks/cn/java/j-lo-spring-boot/
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-jdbc")
     //compile("org.springframework.boot:spring-boot-starter-security")
+    compile("org.springframework.boot:spring-boot-starter-logging")
+    compile("org.springframework.boot:spring-boot-starter-test")
 
 
-    //compile ("javax.servlet:jstl:1.2")
+
+    ///// AMQP (rabbit) //////
+    //compile 'org.springframework.amqp:spring-amqp:1.5.1.RELEASE'
+    //compile 'org.springframework.amqp:spring-rabbit:1.5.1.RELEASE'
+
+    ///// redis //////
+    //compile 'org.springframework.data:spring-data-redis:1.6.0.RELEASE'
+    //compile 'redis.clients:jedis:2.7.3'
+
+
+    ////mysql, mybatis and database connection pool////
     compile ("mysql:mysql-connector-java:5.1.37")
     compile ("com.zaxxer:HikariCP:2.4.1")
     compile("org.mybatis:mybatis-spring:1.2.3")
     compile("org.mybatis:mybatis:3.3.0")
+    compile("com.github.pagehelper:pagehelper:4.0.0")
+    compile("com.github.jsqlparser:jsqlparser:0.9.3")
 
 
+    ///// utility, such as json, etc. //////
     compile ("com.google.code.gson:gson:2.3.1")
+    compile ("commons-codec:commons-codec:1.6")
 
-
-    runtime("org.apache.tomcat.embed:tomcat-embed-jasper")
+    //compile ("javax.servlet:jstl:1.2")
+    //runtime("org.apache.tomcat.embed:tomcat-embed-jasper")
     //runtime("org.springframework.security:spring-security-taglibs")
 
-
-    testCompile("junit:junit")
 }
