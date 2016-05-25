@@ -31,18 +31,17 @@ public class RbacControllerTest {
 
     @Test
     public void testQueryUsersByPage(){
-
-        QueryUsersByPageReq req = new QueryUsersByPageReq();
-        req.setPageIndex(1);
-        req.setPageSize(3);
-
         VendorConnectParams connectParams = new VendorConnectParams();
         connectParams.setUrlBase("http://localhost:8080");
         connectParams.setAccessKey("FSDFGFDGFDHFFDFDFDF");
         connectParams.setSecretKey("gfdgfdgfdgfdfffdser");
         VendorHttpClientService vendorHttpClientService = new VendorHttpClientService(connectParams);
 
-        GenericResponse resp = vendorHttpClientService.post("/collapsar/queryUsersByPage", req, GenericResponse.class);
-        logger.info("testQueryUsersByPage: resp={}");
+        QueryUsersByPageReq req = new QueryUsersByPageReq();
+        req.setPageIndex(1);
+        req.setPageSize(10);
+
+        GenericResponse resp = vendorHttpClientService.post("/collapsar/rbac/queryUsersByPage", req, GenericResponse.class);
+        logger.info("testQueryUsersByPage: resp={}, systim={}", resp, System.currentTimeMillis());
     }
 }

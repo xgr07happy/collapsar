@@ -78,7 +78,7 @@ public class VendorHttpClientService {
 
     public <T> T post(String apiUrl, Object body, Class<T> clazz, String method, int expireTime) {
         logger.debug("vendor post: apiUrl={},body={},clazz={},method={},expireTime={}", apiUrl, body, clazz, method, expireTime);
-        if (StringUtils.hasText(apiUrl) || clazz == null) {
+        if (!StringUtils.hasText(apiUrl) || clazz == null) {
             return null;
         }
         String jsonBody = new Gson().toJson(body);

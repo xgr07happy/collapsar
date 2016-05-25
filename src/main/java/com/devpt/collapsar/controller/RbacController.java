@@ -1,5 +1,8 @@
 package com.devpt.collapsar.controller;
 
+import com.devpt.collapsar.configure.audit.AuditLog;
+import com.devpt.collapsar.configure.audit.AuditLogArg;
+import com.devpt.collapsar.configure.audit.AuditLogConfigurer;
 import com.devpt.collapsar.exception.CollapsarException;
 import com.devpt.collapsar.model.common.GenericResponse;
 import com.devpt.collapsar.model.rbac.QueryUsersByPageReq;
@@ -30,8 +33,9 @@ public class RbacController {
 
 
 
+    @AuditLog(module = AuditLogConfigurer.RbacControllerApi.MODULE_NAME, metric = AuditLogConfigurer.RbacControllerApi.queryUsersByPage)
     @RequestMapping(value = "/queryUsersByPage", method = RequestMethod.POST, produces = "application/json;charset=utf-8")
-    public GenericResponse queryUsersByPage(@RequestBody QueryUsersByPageReq queryUsersByPageReq){
+    public GenericResponse queryUsersByPage(@AuditLogArg @RequestBody QueryUsersByPageReq queryUsersByPageReq){
         logger.info("queryUsersByPage: ====>queryUsersByPageReq={}", queryUsersByPageReq);
 
         GenericResponse response = null;

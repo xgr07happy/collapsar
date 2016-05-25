@@ -16,7 +16,7 @@ import java.util.Locale;
  * Created by chenyong on 2016/5/16.
  */
 @SpringBootApplication
-public class Application extends SpringBootServletInitializer{
+public class Application{
 
     public static void main(String[] args) throws Exception{
         SpringApplication.run(Application.class, args);
