@@ -1,6 +1,6 @@
 package com.devpt.collapsar.controller;
 
-import com.devpt.collapsar.configure.BuildInfoConfigurer;
+import com.devpt.collapsar.config.BuildInfoConfigurer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

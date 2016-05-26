@@ -1,4 +1,4 @@
-package com.devpt.collapsar.configure;
+package com.devpt.collapsar.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * Created by lishaoyan on 2015/5/19.
+ * Created by chenyong on 2015/5/19.
  */
 @Component
 public class SimpleCorsFilter implements Filter {

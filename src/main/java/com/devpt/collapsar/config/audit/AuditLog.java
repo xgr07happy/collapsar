@@ -1,4 +1,4 @@
-package com.devpt.collapsar.configure.audit;
+package com.devpt.collapsar.config.audit;
 
 import java.lang.annotation.*;
 

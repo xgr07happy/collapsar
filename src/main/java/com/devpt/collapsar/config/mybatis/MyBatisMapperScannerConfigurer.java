@@ -1,4 +1,4 @@
-package com.devpt.collapsar.configure.mybatis;
+package com.devpt.collapsar.config.mybatis;
 
 import org.mybatis.spring.mapper.MapperScannerConfigurer;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;

@@ -1,4 +1,4 @@
-package com.devpt.collapsar.configure.audit;
+package com.devpt.collapsar.config.audit;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

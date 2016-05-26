@@ -1,8 +1,8 @@
 package com.devpt.collapsar.controller;
 
-import com.devpt.collapsar.configure.audit.AuditLog;
-import com.devpt.collapsar.configure.audit.AuditLogArg;
-import com.devpt.collapsar.configure.audit.AuditLogConfigurer;
+import com.devpt.collapsar.config.audit.AuditLog;
+import com.devpt.collapsar.config.audit.AuditLogArg;
+import com.devpt.collapsar.config.audit.AuditLogConfigurer;
 import com.devpt.collapsar.exception.CollapsarException;
 import com.devpt.collapsar.model.common.GenericResponse;
 import com.devpt.collapsar.model.rbac.QueryUsersByPageReq;

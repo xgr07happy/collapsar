@@ -1,6 +1,6 @@
-package com.devpt.collapsar.configure.audit.resolver;
+package com.devpt.collapsar.config.audit.resolver;
 
-import com.devpt.collapsar.configure.audit.*;
+import com.devpt.collapsar.config.audit.*;
 import com.google.gson.Gson;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -28,7 +28,7 @@ public class AuditLogResolver {
     private static final Logger logger = LoggerFactory.getLogger(AuditLogResolver.class);
     private static enum MethodSupport {SET,GET}
 
-    @Pointcut(value = "@annotation(com.devpt.collapsar.configure.audit.AuditLog)")
+    @Pointcut(value = "@annotation(com.devpt.collapsar.config.audit.AuditLog)")
     private void auditLogPointcut(){}
 
 

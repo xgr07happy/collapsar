@@ -1,4 +1,4 @@
-package com.devpt.collapsar.configure.audit;
+package com.devpt.collapsar.config.audit;
 
 /**
  * Created by chenyong on 2016/5/25.
