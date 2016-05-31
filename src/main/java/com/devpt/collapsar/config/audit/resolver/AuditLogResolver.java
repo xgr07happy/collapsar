@@ -110,7 +110,6 @@ public class AuditLogResolver {
     }
 
 
-
     private static String getLogs(final List args) throws Exception{
         final List targetArgs = new ArrayList<>();
         for(final Object arg : args){
