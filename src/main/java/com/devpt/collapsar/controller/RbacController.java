@@ -1,5 +1,6 @@
 package com.devpt.collapsar.controller;
 
+import com.devpt.collapsar.config.access.UserCheck;
 import com.devpt.collapsar.config.audit.AuditLog;
 import com.devpt.collapsar.config.audit.AuditLogArg;
 import com.devpt.collapsar.config.audit.AuditLogConfigurer;
@@ -30,7 +31,6 @@ public class RbacController {
     private ReloadableResourceBundleMessageSource messageSource;
     @Autowired
     private RbacService rbacService;
-
 
 
     @AuditLog(module = AuditLogConfigurer.RbacControllerApi.MODULE_NAME, metric = AuditLogConfigurer.RbacControllerApi.queryUsersByPage)

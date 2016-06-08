@@ -24,6 +24,7 @@ import java.util.List;
  */
 @Aspect
 @Component
+@SuppressWarnings("unchecked")
 public class AuditLogResolver {
     private static final Logger logger = LoggerFactory.getLogger(AuditLogResolver.class);
     private static enum MethodSupport {SET,GET}

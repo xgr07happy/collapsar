@@ -36,14 +36,16 @@
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
 
-        <table tableName="rbac_resource" domainObjectName="RbacResource"/>
-        <table tableName="rbac_user" domainObjectName="RbacUser"/>
-        <table tableName="rbac_group" domainObjectName="RbacGroup"/>
-        <table tableName="rbac_role" domainObjectName="RbacRole"/>
-        <table tableName="rbac_role_resource" domainObjectName="RbacRoleResource"/>
-        <table tableName="rbac_user_role" domainObjectName="RbacUserRole"/>
-        <table tableName="rbac_group_role" domainObjectName="RbacGroupRole"/>
-        <table tableName="rbac_user_group" domainObjectName="RbacUserGroup"/>
+        <!--<table tableName="rbac_resource" domainObjectName="RbacResource"/>-->
+        <!--<table tableName="rbac_user" domainObjectName="RbacUser"/>-->
+        <!--<table tableName="rbac_group" domainObjectName="RbacGroup"/>-->
+        <!--<table tableName="rbac_role" domainObjectName="RbacRole"/>-->
+        <!--<table tableName="rbac_role_resource" domainObjectName="RbacRoleResource"/>-->
+        <!--<table tableName="rbac_user_role" domainObjectName="RbacUserRole"/>-->
+        <!--<table tableName="rbac_group_role" domainObjectName="RbacGroupRole"/>-->
+        <!--<table tableName="rbac_user_group" domainObjectName="RbacUserGroup"/>-->
+        <!--<table tableName="config_global" domainObjectName="ConfigGlobal"/>-->
+        <table tableName="config_outer_channel" domainObjectName="ConfigOuterChannel"/>
 
     </context>
 </generatorConfiguration>

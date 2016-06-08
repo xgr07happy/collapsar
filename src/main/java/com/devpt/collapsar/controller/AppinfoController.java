@@ -1,6 +1,7 @@
 package com.devpt.collapsar.controller;
 
 import com.devpt.collapsar.config.BuildInfoConfigurer;
+import com.devpt.collapsar.config.access.UserCheck;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,9 +18,8 @@ public class AppinfoController {
     @Autowired
     private BuildInfoConfigurer buildInfoConfigure;
 
-
+    @UserCheck
     @RequestMapping("/appver")
-    @ResponseBody
     public Object appVersion() {
         logger.info("appver: "+ this.buildInfoConfigure.toString());
         return this.buildInfoConfigure;

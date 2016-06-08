@@ -13,7 +13,7 @@ public class SampleTasks {
     @Autowired
     SampleService sampleService;
 
-    @Scheduled(cron = "*/3 * * * * ?")
+    //@Scheduled(cron = "*/3 * * * * ?")
     void task(){
         System.out.println("start a task." + Thread.currentThread().getName());
         sampleService.doSomethingTimeConsuming();

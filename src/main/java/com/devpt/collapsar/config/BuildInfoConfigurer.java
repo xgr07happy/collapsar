@@ -1,24 +1,25 @@
 package com.devpt.collapsar.config;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.google.gson.Gson;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
+
+import java.io.Serializable;
 
 /**
  * Created by chenyong on 2016/1/14.
  */
-//@ConfigurationProperties(prefix="build", locations="classpath:buildinfo.properties")
 @Component
+@ConfigurationProperties(prefix="build")
 public class BuildInfoConfigurer {
-    @Value("${build.module}")
     private String module;
-    @Value("${build.revision}")
     private String revision;
-    @Value("${build.tag}")
     private String tag;
-    @Value("${build.datetime}")
     private String datetime;
-    @Value("${build.hostname}")
     private String hostname;
 
 
@@ -64,7 +65,12 @@ public class BuildInfoConfigurer {
 
     @Override
     public String toString() {
-        Gson gson = new Gson();
-        return gson.toJson(this);
+        return "BuildInfoConfigurer{" +
+                "module='" + module + '\'' +
+                ", revision='" + revision + '\'' +
+                ", tag='" + tag + '\'' +
+                ", datetime='" + datetime + '\'' +
+                ", hostname='" + hostname + '\'' +
+                '}';
     }
 }

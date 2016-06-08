@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">0</div>
+<div class="counter">1</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.999s</div>
+<div class="counter">10.951s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
-<div class="percent">100%</div>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,13 +61,99 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Tests</a>
+<a href="#tab0">Failed tests</a>
 </li>
 <li>
-<a href="#tab1">Standard output</a>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="testQueryUsersByPage"></a>
+<h3 class="failures">testQueryUsersByPage</h3>
+<span class="code">
+<pre>org.springframework.web.client.ResourceAccessException: I/O error on POST request for &quot;http://localhost:8080/collapsar/rbac/queryUsersByPage&quot;:Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:607)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:557)
+	at org.springframework.web.client.RestTemplate.postForObject(RestTemplate.java:357)
+	at com.devpt.collapsar.service.common.VendorHttpClientService.post(VendorHttpClientService.java:103)
+	at com.devpt.collapsar.service.common.VendorHttpClientService.post(VendorHttpClientService.java:76)
+	at com.devpt.collapsar.service.common.VendorHttpClientService.post(VendorHttpClientService.java:71)
+	at com.devpt.collapsar.controller.RbacControllerTest.testQueryUsersByPage(RbacControllerTest.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:704)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1535)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at org.springframework.http.client.SimpleClientHttpResponse.getRawStatusCode(SimpleClientHttpResponse.java:48)
+	at org.springframework.http.client.AbstractClientHttpResponse.getStatusCode(AbstractClientHttpResponse.java:33)
+	at org.springframework.web.client.DefaultResponseErrorHandler.getHttpStatusCode(DefaultResponseErrorHandler.java:56)
+	at org.springframework.web.client.DefaultResponseErrorHandler.hasError(DefaultResponseErrorHandler.java:50)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:629)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:597)
+	... 51 more
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -78,22 +164,21 @@
 </tr>
 </thead>
 <tr>
-<td class="success">testQueryUsersByPage</td>
-<td>0.999s</td>
-<td class="success">passed</td>
+<td class="failures">testQueryUsersByPage</td>
+<td>10.951s</td>
+<td class="failures">failed</td>
 </tr>
 </table>
 </div>
-<div id="tab1" class="tab">
+<div id="tab2" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2016-05-26 20:34:26,028 [Test worker] DEBUG c.d.c.controller.RbacControllerTest 22 - begin --&gt;
-2016-05-26 20:34:26,045 [Test worker] DEBUG c.d.c.s.c.VendorHttpClientService 51 - connectParams connection: VendorConnectParams{accessKey='FSDFGFDGFDHFFDFDFDF', secretKey='gfdgfdgfdgfdfffdser', urlBase='http://localhost:8080'}
-2016-05-26 20:34:26,670 [Test worker] DEBUG c.d.c.s.c.VendorHttpClientService 80 - vendor post: apiUrl=/collapsar/rbac/queryUsersByPage,body=QueryUsersByPageReq{pageIndex=1, pageSize=10},clazz=class com.devpt.collapsar.model.common.GenericResponse,method=POST,expireTime=1464266666
-2016-05-26 20:34:26,763 [Test worker] DEBUG com.devpt.collapsar.util.TokenHelper 106 - signature contents: |V1-FSDFGFDGFDHFFDFDFDF-1464266666|gfdgfdgfdgfdfffdser|/collapsar/rbac/queryUsersByPage|POST||{&quot;pageIndex&quot;:1,&quot;pageSize&quot;:10}|
-2016-05-26 20:34:26,790 [Test worker] DEBUG c.d.c.s.c.VendorHttpClientService 100 - vendor post url = http://localhost:8080/collapsar/rbac/queryUsersByPage
-2016-05-26 20:34:27,018 [Test worker] INFO  c.d.c.controller.RbacControllerTest 45 - testQueryUsersByPage: resp=GenericResponse{status=0, message='成功', content={total=7, rows=[{id=1, gid=fsf, createTime=1463471288, updateTime=1463471288, isValid=1, remark=null, userName=aaaa, loginPasswd=aaaaaaa}, {id=2, gid=fdsf, createTime=1463471288, updateTime=1463471288, isValid=1, remark=null, userName=bbbb, loginPasswd=bbbb}, {id=4, gid=fdsfds, createTime=1463471288, updateTime=1463471288, isValid=1, remark=null, userName=dddd, loginPasswd=dddd}, {id=5, gid=fdgfgd, createTime=1463471288, updateTime=1463471288, isValid=1, remark=null, userName=eee, loginPasswd=eee}, {id=6, gid=ffff, createTime=1463471288, updateTime=1463471288, isValid=1, remark=null, userName=ffff, loginPasswd=ffff}, {id=7, gid=gggg, createTime=1463471288, updateTime=1463471288, isValid=1, remark=null, userName=gggg, loginPasswd=gggg}, {id=8, gid=hhhh, createTime=1463471288, updateTime=1463471288, isValid=1, remark=null, userName=hhhh, loginPasswd=hhhhh}]}}, systim=1464266067018
-2016-05-26 20:34:27,020 [Test worker] DEBUG c.d.c.controller.RbacControllerTest 28 - end &lt;--use time=985 ms
+<pre>2016-06-08 11:44:44,172 [Test worker] DEBUG c.d.c.controller.RbacControllerTest 22 - begin --&gt;
+2016-06-08 11:44:44,189 [Test worker] DEBUG c.d.c.s.c.VendorHttpClientService 51 - connectParams connection: VendorConnectParams{accessKey='FSDFGFDGFDHFFDFDFDF', secretKey='gfdgfdgfdgfdfffdser', urlBase='http://localhost:8080'}
+2016-06-08 11:44:44,744 [Test worker] DEBUG c.d.c.s.c.VendorHttpClientService 80 - vendor post: apiUrl=/collapsar/rbac/queryUsersByPage?u=1&amp;t=2&amp;c=3,body=QueryUsersByPageReq{pageIndex=1, pageSize=10},clazz=class com.devpt.collapsar.model.common.GenericResponse,method=POST,expireTime=1465358084
+2016-06-08 11:44:44,856 [Test worker] DEBUG com.devpt.collapsar.util.TokenHelper 106 - signature contents: |V1-FSDFGFDGFDHFFDFDFDF-1465358084|gfdgfdgfdgfdfffdser|/collapsar/rbac/queryUsersByPage|POST|c=3&amp;t=2&amp;u=1|{&quot;pageIndex&quot;:1,&quot;pageSize&quot;:10}|
+2016-06-08 11:44:44,873 [Test worker] DEBUG c.d.c.s.c.VendorHttpClientService 100 - vendor post url = http://localhost:8080/collapsar/rbac/queryUsersByPage
+2016-06-08 11:44:55,097 [Test worker] DEBUG c.d.c.controller.RbacControllerTest 28 - end &lt;--use time=10916 ms
 </pre>
 </span>
 </div>
@@ -105,7 +190,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.4</a> at 2016-5-26 20:34:27</p>
+<a href="http://www.gradle.org">Gradle 2.4</a> at 2016-6-8 11:44:55</p>
 </div>
 </div>
 </body>
