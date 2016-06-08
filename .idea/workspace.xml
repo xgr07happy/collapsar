@@ -22,40 +22,79 @@
       <change type="DELETED" beforePath="D:\zz\collapsar\build\classes\main\com\devpt\collapsar\configure\syslog\resolver\AuditLogResolver$MethodSupport.class" afterPath="" />
       <change type="DELETED" beforePath="D:\zz\collapsar\build\classes\main\com\devpt\collapsar\configure\syslog\resolver\AuditLogResolver.class" afterPath="" />
       <change type="DELETED" beforePath="D:\zz\collapsar\build\tmp\war\MANIFEST.MF" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/controller/AppinfoController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/controller/AppinfoController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/config/audit/resolver/AuditLogResolver$MethodSupport.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/config/audit/resolver/AuditLogResolver$MethodSupport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/config/audit/resolver/AuditLogResolver.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/config/audit/resolver/AuditLogResolver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/config/BuildInfoConfigurer.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/config/BuildInfoConfigurer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/controller/RbacController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/controller/RbacController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/com/devpt/collapsar/controller/RbacControllerTest.class" afterPath="$PROJECT_DIR$/build/classes/test/com/devpt/collapsar/controller/RbacControllerTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/service/task/SampleTasks.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/service/task/SampleTasks.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/ConfigOuterChannel.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/ConfigOuterChannel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/ConfigOuterChannelExample$Criteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/ConfigOuterChannelExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/ConfigOuterChannelExample$Criterion.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/ConfigOuterChannelExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/ConfigOuterChannelExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/ConfigOuterChannelExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/dao/impl/RbacDaoImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/dao/impl/RbacDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroup.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroupExample$Criteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroupExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroupExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroupExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroupRole.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroupRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroupRoleExample$Criteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroupRoleExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroupRoleExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroupRoleExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacResource.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacResource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacResourceExample$Criteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacResourceExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacResourceExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacResourceExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRole.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRoleExample$Criteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRoleExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRoleExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRoleExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRoleResource.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRoleResource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRoleResourceExample$Criteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRoleResourceExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRoleResourceExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRoleResourceExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUser.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserExample$Criteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserGroup.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserGroup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserGroupExample$Criteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserGroupExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserGroupExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserGroupExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserRole.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserRoleExample$Criteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserRoleExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserRoleExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserRoleExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/config/access/UserCheckHandler.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/config/access/UserCheckHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/config/access/resolver/UserCheckResolver.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/config/access/resolver/UserCheckResolver.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin.idx" afterPath="$PROJECT_DIR$/build/test-results/binary/test/output.bin.idx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin" afterPath="$PROJECT_DIR$/build/test-results/binary/test/output.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" afterPath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/controller/AppinfoController.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/controller/AppinfoController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/config/audit/resolver/AuditLogResolver.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/config/audit/resolver/AuditLogResolver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/config/BuildInfoConfigurer.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/config/BuildInfoConfigurer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___collapsar___collapsar_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___collapsar___collapsar_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___collapsar___collapsar_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___collapsar___collapsar_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/controller/RbacController.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/controller/RbacController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/service/task/SampleTasks.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/service/task/SampleTasks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/TEST-com.devpt.collapsar.controller.RbacControllerTest.xml" afterPath="$PROJECT_DIR$/build/test-results/TEST-com.devpt.collapsar.controller.RbacControllerTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/ConfigGlobalMapper.xml" afterPath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/ConfigGlobalMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/ConfigGlobalMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/ConfigGlobalMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/ConfigOuterChannelMapper.xml" afterPath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/ConfigOuterChannelMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/dao/impl/RbacDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/dao/impl/RbacDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacGroup.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacGroupExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacGroupExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacGroupMapper.xml" afterPath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacGroupMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacGroupMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacGroupMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacGroupRole.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacGroupRole.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacGroupRoleExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacGroupRoleExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacGroupRoleMapper.xml" afterPath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacGroupRoleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacGroupRoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacGroupRoleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacResourceExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacResourceExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacResourceMapper.xml" afterPath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacResourceMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacResourceMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacResourceMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacRole.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacRole.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacRoleExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacRoleExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacRoleMapper.xml" afterPath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacRoleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacRoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacRoleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacRoleResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacRoleResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacRoleResourceExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacRoleResourceExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacRoleResourceMapper.xml" afterPath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacRoleResourceMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacRoleResourceMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacRoleResourceMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUser.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUserExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUserExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUserGroup.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUserGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUserGroupExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUserGroupExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacUserGroupMapper.xml" afterPath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacUserGroupMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacUserGroupMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacUserGroupMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacUserMapper.xml" afterPath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacUserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacUserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacUserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUserRole.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUserRole.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUserRoleExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUserRoleExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacUserRoleMapper.xml" afterPath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacUserRoleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacUserRoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacUserRoleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/migrations/V0__rbac_init.sql" afterPath="$PROJECT_DIR$/sql/migrations/V0__rbac_init.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/application-buildinfo.properties" afterPath="$PROJECT_DIR$/build/resources/main/application-buildinfo.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application-buildinfo.properties" afterPath="$PROJECT_DIR$/src/main/resources/application-buildinfo.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/application.properties" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collapsar.iml" afterPath="$PROJECT_DIR$/collapsar.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/classes/com.devpt.collapsar.controller.RbacControllerTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/classes/com.devpt.collapsar.controller.RbacControllerTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/packages/com.devpt.collapsar.controller.html" afterPath="$PROJECT_DIR$/build/reports/tests/packages/com.devpt.collapsar.controller.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tool/mybatis-generator/config.xml" afterPath="$PROJECT_DIR$/tool/mybatis-generator/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="collapsar.iws" />
@@ -135,56 +174,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserCheckHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/config/access/UserCheckHandler.java">
+      <file leaf-file-name="RbacDaoImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/dao/impl/RbacDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TokenCheck.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/config/access/TokenCheck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.0428265">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TokenCheckResolver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/config/access/resolver/TokenCheckResolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RbacController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/controller/RbacController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34653464">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserCheckController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/devpt/collapsar/controller/UserCheckController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -613,8 +608,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/service/common/VendorHttpClientService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/configure/mybatis/MyBatisConfigurer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/configure/syslog/resolver/ServerAuditLogReolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/configure/syslog/ServerAuditLog.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/configure/syslog/AuditLogHelper.java" />
@@ -659,11 +652,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/devpt/collapsar/controller/UserCheckController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/controller/AppinfoController.java" />
         <option value="$PROJECT_DIR$/sql/migrations/V1__config_init.sql" />
-        <option value="$PROJECT_DIR$/tool/mybatis-generator/config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/config/access/AccessCheck.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/config/access/resolver/AccessCheckResolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/config/access/resolver/UserCheckResolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/config/access/UserCheckHandler.java" />
+        <option value="$PROJECT_DIR$/sql/migrations/V0__rbac_init.sql" />
+        <option value="$PROJECT_DIR$/tool/mybatis-generator/config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/dao/impl/RbacDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -779,201 +774,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1346,12 +1147,12 @@
       <workItem from="1465216365740" duration="4958000" />
       <workItem from="1465282304450" duration="1209000" />
       <workItem from="1465290016453" duration="10085000" />
-      <workItem from="1465350366762" duration="17253000" />
+      <workItem from="1465350366762" duration="19350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118377000" />
+    <option name="totallyTimeSpent" value="120474000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1364,7 +1165,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1088" y="-1088" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20083247" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1377,17 +1178,17 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49253732" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20682302" sideWeight="0.6919875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19509594" sideWeight="0.6919875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1913646" sideWeight="0.30872482" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15884861" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15884861" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2153518" sideWeight="0.49530202" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13177083" sideWeight="0.3080125" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5426439" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47121534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1456,20 +1257,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/config/task/MySchedulingConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#671#672#0" expanded="false" />
-            <element signature="e#730#731#0" expanded="false" />
-            <element signature="e#807#808#0" expanded="false" />
-            <element signature="e#866#867#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/concurrent/Executors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1613,20 +1400,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="764" column="26" selection-start-line="764" selection-start-column="26" selection-end-line="764" selection-end-column="26" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/migrations/V0__rbac_init.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.94">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="27" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/dao/impl/RbacDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2639138">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1808,22 +1581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/migrations/V1__config_init.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4644936">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tool/mybatis-generator/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.052805282">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/util/ErrorCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6105611">
@@ -1845,7 +1602,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1888,8 +1645,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/controller/RbacController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34653464">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.46644664">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18481848">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/mybatis-generator/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.90759075">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/migrations/V1__config_init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4644936">
+          <caret line="19" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/migrations/V0__rbac_init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5378347">
+          <caret line="22" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="144" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/dao/impl/RbacDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0428265">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>

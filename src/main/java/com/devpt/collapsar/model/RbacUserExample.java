@@ -454,52 +454,52 @@ public class RbacUserExample {
             return (Criteria) this;
         }
 
-        public Criteria andIsValidEqualTo(Integer value) {
+        public Criteria andIsValidEqualTo(Boolean value) {
             addCriterion("is_valid =", value, "isValid");
             return (Criteria) this;
         }
 
-        public Criteria andIsValidNotEqualTo(Integer value) {
+        public Criteria andIsValidNotEqualTo(Boolean value) {
             addCriterion("is_valid <>", value, "isValid");
             return (Criteria) this;
         }
 
-        public Criteria andIsValidGreaterThan(Integer value) {
+        public Criteria andIsValidGreaterThan(Boolean value) {
             addCriterion("is_valid >", value, "isValid");
             return (Criteria) this;
         }
 
-        public Criteria andIsValidGreaterThanOrEqualTo(Integer value) {
+        public Criteria andIsValidGreaterThanOrEqualTo(Boolean value) {
             addCriterion("is_valid >=", value, "isValid");
             return (Criteria) this;
         }
 
-        public Criteria andIsValidLessThan(Integer value) {
+        public Criteria andIsValidLessThan(Boolean value) {
             addCriterion("is_valid <", value, "isValid");
             return (Criteria) this;
         }
 
-        public Criteria andIsValidLessThanOrEqualTo(Integer value) {
+        public Criteria andIsValidLessThanOrEqualTo(Boolean value) {
             addCriterion("is_valid <=", value, "isValid");
             return (Criteria) this;
         }
 
-        public Criteria andIsValidIn(List<Integer> values) {
+        public Criteria andIsValidIn(List<Boolean> values) {
             addCriterion("is_valid in", values, "isValid");
             return (Criteria) this;
         }
 
-        public Criteria andIsValidNotIn(List<Integer> values) {
+        public Criteria andIsValidNotIn(List<Boolean> values) {
             addCriterion("is_valid not in", values, "isValid");
             return (Criteria) this;
         }
 
-        public Criteria andIsValidBetween(Integer value1, Integer value2) {
+        public Criteria andIsValidBetween(Boolean value1, Boolean value2) {
             addCriterion("is_valid between", value1, value2, "isValid");
             return (Criteria) this;
         }
 
-        public Criteria andIsValidNotBetween(Integer value1, Integer value2) {
+        public Criteria andIsValidNotBetween(Boolean value1, Boolean value2) {
             addCriterion("is_valid not between", value1, value2, "isValid");
             return (Criteria) this;
         }

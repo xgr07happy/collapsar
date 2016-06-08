@@ -41,7 +41,7 @@ public class RbacDaoImpl implements RbacDao{
     public List<RbacUser> getUsers() {
         RbacUserExample example = new RbacUserExample();
         example.or()
-                .andIsValidEqualTo(BasicModel.ROW_IS_VALID);
+                .andIsValidEqualTo(true);
 
         List<RbacUser> rbacUsers = this.rbacUserMapper.selectByExample(example);
         return rbacUsers;
@@ -51,7 +51,7 @@ public class RbacDaoImpl implements RbacDao{
     public DataGrid getUsersByPage(int pageIndex, int pageSize) {
         RbacUserExample example = new RbacUserExample();
         example.or()
-                .andIsValidEqualTo(BasicModel.ROW_IS_VALID);
+                .andIsValidEqualTo(true);
         Page page = PageHelper.startPage(pageIndex, pageSize);
         this.rbacUserMapper.selectByExample(example);
         DataGrid dataGrid = new DataGrid(page.getTotal(), page.getResult());

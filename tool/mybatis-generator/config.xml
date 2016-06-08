@@ -45,7 +45,7 @@
         <!--<table tableName="rbac_group_role" domainObjectName="RbacGroupRole"/>-->
         <!--<table tableName="rbac_user_group" domainObjectName="RbacUserGroup"/>-->
         <!--<table tableName="config_global" domainObjectName="ConfigGlobal"/>-->
-        <table tableName="config_outer_channel" domainObjectName="ConfigOuterChannel"/>
+        <!--<table tableName="config_outer_channel" domainObjectName="ConfigOuterChannel"/>-->
 
     </context>
 </generatorConfiguration>

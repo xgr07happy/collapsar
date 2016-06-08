@@ -1,20 +1,3 @@
-/*
-Navicat MariaDB Data Transfer
-
-Source Server         : root@localhost
-Source Server Version : 100017
-Source Host           : localhost:3306
-Source Database       : collapsar
-
-Target Server Type    : MariaDB
-Target Server Version : 100017
-File Encoding         : 65001
-
-Date: 2016-05-17 10:05:43
-*/
-
-SET FOREIGN_KEY_CHECKS=0;
-
 -- ----------------------------
 -- Table structure for rbac_resource
 -- ----------------------------
@@ -24,7 +7,7 @@ CREATE TABLE `rbac_resource` (
   `gid` char(36) NOT NULL COMMENT '全局唯一键',
   `create_time` int(11) NOT NULL COMMENT '创建时间',
   `update_time` int(11) NOT NULL COMMENT '更新时间',
-  `is_valid` int(11) DEFAULT NULL COMMENT '是否有效，1有效，0无效',
+  `is_valid` bit(1) NOT NULL DEFAULT b'1' COMMENT '是否有效: 1有效，0无效',
   `remark` varchar(255) DEFAULT NULL COMMENT '备注',
 
   `resource_name` varchar(100) DEFAULT NULL COMMENT '资源名',
@@ -47,7 +30,7 @@ CREATE TABLE `rbac_user` (
   `gid` char(36) NOT NULL COMMENT '全局唯一键',
   `create_time` int(11) NOT NULL COMMENT '创建时间',
   `update_time` int(11) NOT NULL COMMENT '更新时间',
-  `is_valid` int(11) DEFAULT NULL COMMENT '是否有效，1有效，0无效',
+  `is_valid` bit(1) NOT NULL DEFAULT b'1' COMMENT '是否有效: 1有效，0无效',
   `remark` varchar(255) DEFAULT NULL COMMENT '备注',
 
   `user_name` varchar(100) DEFAULT NULL COMMENT '用户名',
@@ -65,7 +48,7 @@ CREATE TABLE `rbac_group` (
   `gid` char(36) NOT NULL COMMENT '全局唯一键',
   `create_time` int(11) NOT NULL COMMENT '创建时间',
   `update_time` int(11) NOT NULL COMMENT '更新时间',
-  `is_valid` int(11) DEFAULT NULL COMMENT '是否有效，1有效，0无效',
+  `is_valid` bit(1) NOT NULL DEFAULT b'1' COMMENT '是否有效: 1有效，0无效',
   `remark` varchar(64) DEFAULT NULL COMMENT '备注',
 
   `group_name` varchar(100) DEFAULT NULL COMMENT '组名',
@@ -83,7 +66,7 @@ CREATE TABLE `rbac_role` (
   `gid` char(36) NOT NULL COMMENT '全局唯一键',
   `create_time` int(11) NOT NULL COMMENT '创建时间',
   `update_time` int(11) NOT NULL COMMENT '更新时间',
-  `is_valid` int(11) DEFAULT NULL COMMENT '是否有效，1有效，0无效',
+  `is_valid` bit(1) NOT NULL DEFAULT b'1' COMMENT '是否有效: 1有效，0无效',
   `remark` varchar(255) DEFAULT NULL COMMENT '备注',
 
   `role_name` varchar(100) DEFAULT NULL COMMENT '角色名',
@@ -102,7 +85,7 @@ CREATE TABLE `rbac_role_resource` (
   `gid` char(36) NOT NULL COMMENT '全局唯一键',
   `create_time` int(11) NOT NULL COMMENT '创建时间',
   `update_time` int(11) NOT NULL COMMENT '更新时间',
-  `is_valid` int(11) DEFAULT NULL COMMENT '是否有效，1有效，0无效',
+  `is_valid` bit(1) NOT NULL DEFAULT b'1' COMMENT '是否有效: 1有效，0无效',
   `remark` varchar(255) DEFAULT NULL COMMENT '备注',
 
   `role_gid` char(36) DEFAULT NULL COMMENT '角色gid',
@@ -119,7 +102,7 @@ CREATE TABLE `rbac_user_role` (
   `gid` char(36) NOT NULL COMMENT '全局唯一键',
   `create_time` int(11) NOT NULL COMMENT '创建时间',
   `update_time` int(11) NOT NULL COMMENT '更新时间',
-  `is_valid` int(11) DEFAULT NULL COMMENT '是否有效，1有效，0无效',
+  `is_valid` bit(1) NOT NULL DEFAULT b'1' COMMENT '是否有效: 1有效，0无效',
   `remark` varchar(255) DEFAULT NULL COMMENT '备注',
 
   `user_gid` char(36) DEFAULT NULL COMMENT '用户gid',
@@ -136,7 +119,7 @@ CREATE TABLE `rbac_group_role` (
   `gid` char(36) NOT NULL COMMENT '全局唯一键',
   `create_time` int(11) NOT NULL COMMENT '创建时间',
   `update_time` int(11) NOT NULL COMMENT '更新时间',
-  `is_valid` int(11) DEFAULT NULL COMMENT '是否有效，1有效，0无效',
+  `is_valid` bit(1) NOT NULL DEFAULT b'1' COMMENT '是否有效: 1有效，0无效',
   `remark` varchar(255) DEFAULT NULL COMMENT '备注',
 
   `group_gid` char(36) DEFAULT NULL COMMENT '工作组gid',
@@ -153,7 +136,7 @@ CREATE TABLE `rbac_user_group` (
   `gid` char(36) NOT NULL COMMENT '全局唯一键',
   `create_time` int(11) NOT NULL COMMENT '创建时间',
   `update_time` int(11) NOT NULL COMMENT '更新时间',
-  `is_valid` int(11) DEFAULT NULL COMMENT '是否有效，1有效，0无效',
+  `is_valid` bit(1) NOT NULL DEFAULT b'1' COMMENT '是否有效: 1有效，0无效',
   `remark` varchar(255) DEFAULT NULL COMMENT '备注',
 
   `group_gid` char(36) DEFAULT NULL COMMENT '工作组gid',
