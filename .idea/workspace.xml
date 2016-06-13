@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9c9e6e5-8a0f-442c-acf0-e02547b30bb9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/build.gradle" />
       <change type="DELETED" beforePath="D:\zz\collapsar\build\classes\main\com\devpt\collapsar\configure\BuildInfoConfigurer.class" afterPath="" />
       <change type="DELETED" beforePath="D:\zz\collapsar\build\classes\main\com\devpt\collapsar\configure\SimpleCorsFilter.class" afterPath="" />
       <change type="DELETED" beforePath="D:\zz\collapsar\build\classes\main\com\devpt\collapsar\configure\mybatis\MyBatisConfigurer.class" afterPath="" />
@@ -22,80 +23,9 @@
       <change type="DELETED" beforePath="D:\zz\collapsar\build\classes\main\com\devpt\collapsar\configure\syslog\resolver\AuditLogResolver$MethodSupport.class" afterPath="" />
       <change type="DELETED" beforePath="D:\zz\collapsar\build\classes\main\com\devpt\collapsar\configure\syslog\resolver\AuditLogResolver.class" afterPath="" />
       <change type="DELETED" beforePath="D:\zz\collapsar\build\tmp\war\MANIFEST.MF" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/ConfigOuterChannel.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/ConfigOuterChannel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/ConfigOuterChannelExample$Criteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/ConfigOuterChannelExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/ConfigOuterChannelExample$Criterion.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/ConfigOuterChannelExample$Criterion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/ConfigOuterChannelExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/ConfigOuterChannelExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/dao/impl/RbacDaoImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/dao/impl/RbacDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroup.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroup.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroupExample$Criteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroupExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroupExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroupExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroupRole.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroupRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroupRoleExample$Criteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroupRoleExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroupRoleExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacGroupRoleExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacResource.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacResource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacResourceExample$Criteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacResourceExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacResourceExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacResourceExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRole.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRoleExample$Criteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRoleExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRoleExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRoleExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRoleResource.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRoleResource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRoleResourceExample$Criteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRoleResourceExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRoleResourceExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacRoleResourceExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUser.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserExample$Criteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserGroup.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserGroup.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserGroupExample$Criteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserGroupExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserGroupExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserGroupExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserRole.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserRoleExample$Criteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserRoleExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserRoleExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/model/RbacUserRoleExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/config/access/UserCheckHandler.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/config/access/UserCheckHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/config/access/resolver/UserCheckResolver.class" afterPath="$PROJECT_DIR$/build/classes/main/com/devpt/collapsar/config/access/resolver/UserCheckResolver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/ConfigGlobalMapper.xml" afterPath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/ConfigGlobalMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/ConfigGlobalMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/ConfigGlobalMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/ConfigOuterChannelMapper.xml" afterPath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/ConfigOuterChannelMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/dao/impl/RbacDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/dao/impl/RbacDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacGroup.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacGroup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacGroupExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacGroupExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacGroupMapper.xml" afterPath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacGroupMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacGroupMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacGroupMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacGroupRole.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacGroupRole.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacGroupRoleExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacGroupRoleExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacGroupRoleMapper.xml" afterPath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacGroupRoleMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacGroupRoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacGroupRoleMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacResourceExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacResourceExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacResourceMapper.xml" afterPath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacResourceMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacResourceMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacResourceMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacRole.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacRole.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacRoleExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacRoleExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacRoleMapper.xml" afterPath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacRoleMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacRoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacRoleMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacRoleResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacRoleResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacRoleResourceExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacRoleResourceExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacRoleResourceMapper.xml" afterPath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacRoleResourceMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacRoleResourceMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacRoleResourceMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUser.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUserExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUserExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUserGroup.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUserGroup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUserGroupExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUserGroupExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacUserGroupMapper.xml" afterPath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacUserGroupMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacUserGroupMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacUserGroupMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacUserMapper.xml" afterPath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacUserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacUserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacUserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUserRole.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUserRole.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUserRoleExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/model/RbacUserRoleExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacUserRoleMapper.xml" afterPath="$PROJECT_DIR$/build/resources/main/mapper/com/devpt/collapsar/RbacUserRoleMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacUserRoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/com/devpt/collapsar/RbacUserRoleMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/migrations/V0__rbac_init.sql" afterPath="$PROJECT_DIR$/sql/migrations/V0__rbac_init.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/application-buildinfo.properties" afterPath="$PROJECT_DIR$/build/resources/main/application-buildinfo.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application-buildinfo.properties" afterPath="$PROJECT_DIR$/src/main/resources/application-buildinfo.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tool/mybatis-generator/config.xml" afterPath="$PROJECT_DIR$/tool/mybatis-generator/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\zz\collapsar\sql\migrations\V0__rbac_init.sql" afterPath="$PROJECT_DIR$/sql/migrations/V1__rbac_init.sql" />
+      <change type="MOVED" beforePath="D:\zz\collapsar\sql\migrations\V1__config_init.sql" afterPath="$PROJECT_DIR$/sql/migrations/V0__config_init.sql" />
     </list>
     <ignored path="collapsar.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -174,11 +104,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RbacDaoImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/dao/impl/RbacDaoImpl.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0428265">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="V0__config_init.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/migrations/V0__config_init.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.08">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="V1__rbac_init.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sql/migrations/V1__rbac_init.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42615557">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -608,8 +558,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/configure/syslog/resolver/ServerAuditLogReolver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/configure/syslog/ServerAuditLog.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/configure/syslog/AuditLogHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/configure/syslog/AuditLogArg.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/configure/syslog/MaskFild.java" />
@@ -659,6 +607,8 @@
         <option value="$PROJECT_DIR$/sql/migrations/V0__rbac_init.sql" />
         <option value="$PROJECT_DIR$/tool/mybatis-generator/config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/devpt/collapsar/dao/impl/RbacDaoImpl.java" />
+        <option value="$PROJECT_DIR$/sql/build.gradle" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -677,10 +627,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1088" />
-    <option name="y" value="-1088" />
+    <option name="x" value="-556" />
+    <option name="y" value="-522" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1124" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -706,6 +656,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -737,69 +689,9 @@
               <option name="myItemId" value="tool" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mybatis-generator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collapsar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -815,6 +707,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\zz\collapsar\sql\migrations" />
       <recent name="D:\zz\collapsar\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\zz\collapsar" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.collapsar [bootRun]">
@@ -1147,12 +1042,13 @@
       <workItem from="1465216365740" duration="4958000" />
       <workItem from="1465282304450" duration="1209000" />
       <workItem from="1465290016453" duration="10085000" />
-      <workItem from="1465350366762" duration="19350000" />
+      <workItem from="1465350366762" duration="20061000" />
+      <workItem from="1465802458391" duration="1858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120474000" />
+    <option name="totallyTimeSpent" value="123043000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1164,8 +1060,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1088" y="-1088" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <frame x="-556" y="-522" width="1936" height="1124" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20083247" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1175,26 +1071,26 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49253732" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19509594" sideWeight="0.6919875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1913646" sideWeight="0.30872482" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15884861" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15884861" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2153518" sideWeight="0.49530202" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13177083" sideWeight="0.3080125" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47121534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47121534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49253732" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1257,20 +1153,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="284" column="38" selection-start-line="284" selection-start-column="38" selection-end-line="284" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.3.RELEASE/e27b48d7dab85e42e81b648c94bb2c3255852c0/spring-context-4.2.3.RELEASE-sources.jar!/org/springframework/scheduling/annotation/Async.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7458746">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.3.0.RELEASE/347178b33300335772d46cc173307a959bb9e665/spring-boot-autoconfigure-1.3.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22662266">
@@ -1346,7 +1228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.765625">
           <caret line="348" column="1" selection-start-line="348" selection-start-column="1" selection-end-line="348" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1375,7 +1256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1059246">
           <caret line="467" column="28" selection-start-line="467" selection-start-column="28" selection-end-line="467" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1383,7 +1263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,7 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,7 +1277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="764" column="26" selection-start-line="764" selection-start-column="26" selection-end-line="764" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1407,24 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33206832">
           <caret line="1094" column="27" selection-start-line="1094" selection-start-column="27" selection-end-line="1094" selection-end-column="27" />
-          <folding>
-            <element signature="e#3587#3588#0" expanded="false" />
-            <element signature="e#3634#3635#0" expanded="false" />
-            <element signature="e#6709#6710#0" expanded="false" />
-            <element signature="e#6761#6762#0" expanded="false" />
-            <element signature="e#13624#13625#0" expanded="false" />
-            <element signature="e#13668#13669#0" expanded="false" />
-            <element signature="e#14785#14786#0" expanded="false" />
-            <element signature="e#14837#14838#0" expanded="false" />
-            <element signature="e#16303#16304#0" expanded="false" />
-            <element signature="e#16352#16353#0" expanded="false" />
-            <element signature="e#21869#21870#0" expanded="false" />
-            <element signature="e#21924#21925#0" expanded="false" />
-            <element signature="e#38031#38032#0" expanded="false" />
-            <element signature="e#38081#38082#0" expanded="false" />
-            <element signature="e#41296#41297#0" expanded="false" />
-            <element signature="e#41342#41343#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1432,9 +1291,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2639138">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1442,15 +1298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7689769">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1458,9 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33931777">
           <caret line="9" column="44" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1468,7 +1312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09240924">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1476,9 +1319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.65170556">
           <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1486,9 +1326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33931777">
           <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1496,23 +1333,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7540395">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#571#572#0" expanded="false" />
-            <element signature="e#629#630#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages/message_zh_CN.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.2">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/config/redis/RedisConfigurer.java">
@@ -1529,7 +1360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1537,7 +1367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1545,7 +1374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6226415">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1553,7 +1381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1561,7 +1388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6089386">
           <caret line="43" column="93" selection-start-line="43" selection-start-column="93" selection-end-line="43" selection-end-column="93" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1569,7 +1395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="1823" column="15" selection-start-line="1823" selection-start-column="15" selection-end-line="1823" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1577,7 +1402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55445546">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1585,7 +1409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6105611">
           <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1593,7 +1416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.5709571">
           <caret line="90" column="15" selection-start-line="90" selection-start-column="15" selection-end-line="90" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1601,9 +1423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1611,7 +1430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1619,7 +1437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1627,9 +1444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8778878">
           <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1637,9 +1451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1647,7 +1458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46644664">
           <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1667,26 +1477,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/migrations/V1__config_init.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4644936">
-          <caret line="19" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/migrations/V0__rbac_init.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5378347">
-          <caret line="22" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="144" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/dao/impl/RbacDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0428265">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/migrations/V0__config_init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.08">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5756579">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/migrations/V1__rbac_init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42615557">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding />
         </state>
       </provider>
