@@ -38,6 +38,7 @@ public abstract class ErrorCode {
     public static final int SYS_TOKEN_INVALID = 3;
     public static final int SYS_CHANNEL_INVALID = 4;
     public static final int SYS_PARAM_INVALID = 5;
+    public static final int SYS_OPRATE_TOO_FREQUENENTLY = 6;
 
 
 

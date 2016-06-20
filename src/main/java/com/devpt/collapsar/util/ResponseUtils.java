@@ -21,6 +21,7 @@ public class ResponseUtils {
         ERROR_CODE_MAP.put(ErrorCode.SYS_TOKEN_INVALID, "response.failure.token.invalid");
         ERROR_CODE_MAP.put(ErrorCode.SYS_CHANNEL_INVALID, "response.failure.channel.invalid");
         ERROR_CODE_MAP.put(ErrorCode.SYS_PARAM_INVALID, "response.failure.param.invalid");
+        ERROR_CODE_MAP.put(ErrorCode.SYS_OPRATE_TOO_FREQUENENTLY, "response.failure.too.frequently");
 
     }
 
