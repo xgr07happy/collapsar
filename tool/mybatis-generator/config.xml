@@ -46,7 +46,8 @@
         <!--<table tableName="rbac_user_group" domainObjectName="RbacUserGroup"/>-->
         <!--<table tableName="config_global" domainObjectName="ConfigGlobal"/>-->
         <!--<table tableName="config_outer_channel" domainObjectName="ConfigOuterChannel"/>-->
-        <table tableName="log_request_exception" domainObjectName="LogRequestException"/>
+        <!--<table tableName="log_request_exception" domainObjectName="LogRequestException"/>-->
+        <table tableName="util_async_task" domainObjectName="UtilAsyncTask"/>
 
     </context>
 </generatorConfiguration>
