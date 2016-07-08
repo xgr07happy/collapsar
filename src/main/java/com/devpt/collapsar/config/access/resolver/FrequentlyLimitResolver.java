@@ -42,7 +42,7 @@ public class FrequentlyLimitResolver {
 
 
 
-    @Pointcut(value = "com.devpt.collapsar.config.access.FrequentlyLimit")
+    @Pointcut(value = "@annotation(com.devpt.collapsar.config.access.FrequentlyLimit)")
     private void anyMethod(){};
 
 

@@ -2,11 +2,13 @@ package com.devpt.collapsar.model.common;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 
 /**
  * Created by chenyong on 2016/7/6.
+ *  the default retry task
  */
-public class AsyncTask {
+public class RetryTask {
     private int id;
     private String gid;
     private int createTime;
@@ -28,18 +30,43 @@ public class AsyncTask {
     public static final int STATUS_EXCEED_MAX_TIMEOUT = 5; // the task exceeded the max timeout and is dropped
 
 
-    //task type
-    public static final int TYPE_DEFAULT = 0; // default task type
-
-
     //task max retry num
-    private static final int DEFAULT_MAX_RETRY_NUM = 5;
-    private static final Map<Integer, Integer> TYPE_AND_MAX_RETRY_NUM = new HashMap<>();
-    static {
-        TYPE_AND_MAX_RETRY_NUM.put(TYPE_DEFAULT, DEFAULT_MAX_RETRY_NUM);
+    private static final int DEFAULT_MAX_RETRY_NUM = 10;
+
+
+
+    public void process(){
+        int ret = 0;
+        try{
+            System.out.println("process: mock process task...");
+            Random random = new Random();
+            ret = random.nextInt(10);
+            Thread.currentThread().sleep(5000);
+        }catch (InterruptedException ex){
+            ex.printStackTrace();
+        }
+
+        switch (ret){
+            case RetryTask.STATUS_SUCCESS:
+                this.setStatus(RetryTask.STATUS_SUCCESS);
+                break;
+            case RetryTask.STATUS_FAIL:
+                this.setStatus(RetryTask.STATUS_FAIL);
+                break;
+            case RetryTask.STATUS_BAD_REQUEST:
+                this.setStatus(RetryTask.STATUS_BAD_REQUEST);
+                break;
+            case RetryTask.STATUS_SERVICE_UNAVAILABLE:
+                this.setStatus(RetryTask.STATUS_BAD_REQUEST);
+                break;
+            case RetryTask.STATUS_EXCEED_MAX_TIMEOUT:
+                this.setStatus(RetryTask.STATUS_EXCEED_MAX_TIMEOUT);
+                break;
+            default:
+                System.out.println("process: the ret of process is still unknow, and will retry again if support.");
+                this.setStatus(RetryTask.STATUS_UNKNOWN);
+        }
     }
-
-
 
     public int getNextRetryTime() {
         if (retryNum < 5) {
@@ -56,17 +83,13 @@ public class AsyncTask {
         return nextTime;
     }
 
-    private int getMaxRetryNum(int type) {
-        Integer maxRetryNum = TYPE_AND_MAX_RETRY_NUM.get(type);
-        if(null == maxRetryNum){
-            maxRetryNum = DEFAULT_MAX_RETRY_NUM;
-        }
-        return maxRetryNum;
+    public int getMaxRetryNum() {
+        return DEFAULT_MAX_RETRY_NUM;
     }
 
-    public boolean hasNextRetry(int type) {
+    public boolean canRetry() {
         if (status == STATUS_UNKNOWN || status == STATUS_SERVICE_UNAVAILABLE) {
-            return retryNum < getMaxRetryNum(type);
+            return retryNum < getMaxRetryNum();
         } else {
             return false;
         }
@@ -77,10 +100,10 @@ public class AsyncTask {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        AsyncTask that = (AsyncTask) o;
+        RetryTask that = (RetryTask) o;
 
         if(id != this.id) return false;
-        if (gid != that.gid) return false;
+        if (gid != null ? !gid.equals(that.gid) : that.gid != null) return false;
         if (type != that.type) return false;
         if (status != that.status) return false;
         if (context != null ? !context.equals(that.context) : that.context != null) return false;
@@ -175,5 +198,20 @@ public class AsyncTask {
 
     public void setNextTime(int nextTime) {
         this.nextTime = nextTime;
+    }
+
+    @Override
+    public String toString() {
+        return "RetryTask{" +
+                "id=" + id +
+                ", gid='" + gid + '\'' +
+                ", createTime=" + createTime +
+                ", updateTime=" + updateTime +
+                ", type=" + type +
+                ", context='" + context + '\'' +
+                ", status=" + status +
+                ", nextTime=" + nextTime +
+                ", retryNum=" + retryNum +
+                '}';
     }
 }

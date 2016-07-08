@@ -5,7 +5,8 @@
     <file url="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/config/access/UserCheckHandler.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/config/mybatis/MyBatisConfigurer.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/config/task/MyAsyncConfigurer.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/service/task/AsyncTaskService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/service/task/AsyncRetryTasks.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/service/task/SampleTasks.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/devpt/collapsar/util/TokenHelper.java" charset="UTF-8" />
   </component>
 </project>

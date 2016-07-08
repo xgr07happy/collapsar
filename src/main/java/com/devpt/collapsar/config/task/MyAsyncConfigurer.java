@@ -3,6 +3,7 @@ package com.devpt.collapsar.config.task;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.aop.interceptor.AsyncUncaughtExceptionHandler;
+import org.springframework.context.annotation.AdviceMode;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.AsyncConfigurer;
@@ -18,7 +19,7 @@ import java.util.concurrent.ThreadPoolExecutor;
  * by default use jdk(interface-based) or cglib(subclass-based) to impl proxy
  */
 @Configuration
-@EnableAsync
+@EnableAsync(mode = AdviceMode.ASPECTJ)
 public class MyAsyncConfigurer implements AsyncConfigurer{
     private static final Logger logger = LoggerFactory.getLogger(MyAsyncConfigurer.class);
 
